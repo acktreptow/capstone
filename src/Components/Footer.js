@@ -2,7 +2,7 @@ import logo from "../images/Logo.svg";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <img src={logo} alt="Little Lemon Logo" />
     </footer>
   );
