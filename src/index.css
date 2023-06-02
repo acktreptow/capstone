@@ -10,22 +10,28 @@ header {
   background-color: #edefee;
   padding: 20px;
   justify-content: center;
+  align-items: center;
+  color: black;
 }
 
 header img {
-  margin-right: 20px;
-  align-items: center;
+  margin-right: 100px;
+  height: 50px;
 }
 
-.navbar {
+nav {
   display: flex;
   padding-left: 16px;
-  align-items: center;
 }
 
-.navbar a {
+nav a {
   padding: 6px;
   text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  font-family: "Markazi Text", serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .title {
@@ -38,6 +44,12 @@ header img {
   font-family: "Markazi Text", serif;
   font-size: 40px;
   color: black;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .lead {
