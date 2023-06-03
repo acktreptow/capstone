@@ -1,4 +1,6 @@
-import salad from "../images/greek salad.jpg";
+import greekSalad from "../images/greekSalad.jpg";
+import bruschetta from "../images/bruschetta.svg";
+import lemonDessert from "../images/lemonDessert.jpg";
 import { faMotorcycle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -12,7 +14,11 @@ function Highlights() {
       <div>
         <div className="specials-container">
           <div className="specials-card">
-            <img src={salad} alt="greek salad" className="specials-image" />
+            <img
+              src={greekSalad}
+              alt="greek salad"
+              className="specials-image"
+            />
             <div className="specials-title">
               <h3>Greek Salad</h3>
               <p>$12.99</p>
@@ -28,15 +34,14 @@ function Highlights() {
             </div>
           </div>
           <div className="specials-card">
-            <img src={salad} alt="greek salad" className="specials-image" />
+            <img src={bruschetta} alt="bruchetta" className="specials-image" />
             <div className="specials-title">
-              <h3>Greek Salad</h3>
-              <p>$12.99</p>
+              <h3>Bruschetta</h3>
+              <p>$5.99</p>
             </div>
             <p className="specials-main">
-              The famous greek salad of crispy lettuce, peppers, olives and our
-              Chicago style feta cheese, garnished with crunchy garlic and
-              rosemary croutons.
+              Our bruschetta is made from grilled bread that has been smeared
+              with garlic and seasoned with salt and olive oil.
             </p>
             <div className="specials-bottom">
               <h4>Order for delivery</h4>
@@ -44,15 +49,19 @@ function Highlights() {
             </div>
           </div>
           <div className="specials-card">
-            <img src={salad} alt="greek salad" className="specials-image" />
+            <img
+              src={lemonDessert}
+              alt="greek salad"
+              className="specials-image3"
+            />
             <div className="specials-title">
-              <h3>Greek Salad</h3>
-              <p>$12.99</p>
+              <h3>Lemon Dessert</h3>
+              <p>$5.00</p>
             </div>
             <p className="specials-main">
-              The famous greek salad of crispy lettuce, peppers, olives and our
-              Chicago style feta cheese, garnished with crunchy garlic and
-              rosemary croutons.
+              This comes straight from grandma's recipe book, every last
+              ingredient has been sources and is as authentic as can be
+              imagined.
             </p>
             <div className="specials-bottom">
               <h4>Order for delivery</h4>

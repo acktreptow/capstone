@@ -16,7 +16,8 @@ function Testimonials() {
             <h2 className="user-name">Jane Doe</h2>
             <p className="user-text">
               Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in
-              massa egestas mollis varius dignissim elementum.{" "}
+              massa egestas mollis varius dignissim elementum.Mollis tincidunt
+              mattis hendrerit dolor eros enim, nisi ligula ornare.
             </p>
             <div className="user-rating">
               <FontAwesomeIcon icon={faStar} />
@@ -27,14 +28,14 @@ function Testimonials() {
             </div>
           </div>
           <div className="testimonial-card">
-            <img src={user1} alt="first review" className="user-img" />
-            <h2 className="user-name">Jane Doe</h2>
+            <img src={user2} alt="first review" className="user-img" />
+            <h2 className="user-name">John Doe</h2>
             <p className="user-text">
               Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in
-              massa egestas mollis varius dignissim elementum.{" "}
+              massa egestas mollis varius dignissim elementum.Mollis tincidunt
+              mattis hendrerit dolor eros enim, nisi ligula ornare.
             </p>
             <div className="user-rating">
-              <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
@@ -42,26 +43,28 @@ function Testimonials() {
             </div>
           </div>
           <div className="testimonial-card">
-            <img src={user1} alt="first review" className="user-img" />
-            <h2 className="user-name">Jane Doe</h2>
+            <img src={user3} alt="first review" className="user-img" />
+            <h2 className="user-name">Sara Lopez</h2>
             <p className="user-text">
               Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in
-              massa egestas mollis varius dignissim elementum.{" "}
+              massa egestas mollis varius dignissim elementum.Mollis tincidunt
+              mattis hendrerit dolor eros enim, nisi ligula ornare.
             </p>
             <div className="user-rating">
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
               <FontAwesomeIcon icon={faStar} />
-              <FontAwesomeIcon icon={faStar} />
+              <FontAwesomeIcon icon={faStarHalfStroke} />
             </div>
           </div>
           <div className="testimonial-card">
-            <img src={user1} alt="first review" className="user-img" />
-            <h2 className="user-name">Jane Doe</h2>
+            <img src={user4} alt="first review" className="user-img" />
+            <h2 className="user-name">Adam Duong</h2>
             <p className="user-text">
               Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in
-              massa egestas mollis varius dignissim elementum.{" "}
+              massa egestas mollis varius dignissim elementum.Mollis tincidunt
+              mattis hendrerit dolor eros enim, nisi ligula ornare.
             </p>
             <div className="user-rating">
               <FontAwesomeIcon icon={faStar} />

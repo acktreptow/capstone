@@ -1,4 +1,4 @@
-import bread from "../images/restauranfood.jpg";
+import bread from "../images/restaurantfood.jpg";
 
 function Hero() {
   return (

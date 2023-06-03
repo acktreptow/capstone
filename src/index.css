@@ -135,10 +135,18 @@ nav a {
   margin-top: 50px;
   background-color: #edefee;
   border-radius: 16px;
+  position: relative;
 }
 
 .specials-image {
   width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.specials-image3 {
+  width: 100%;
+  height: 48%;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
@@ -148,17 +156,20 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10px;
+  padding: 0 15px;
   margin-top: 10px;
 }
 
 .specials-main {
-  padding: 0 10px;
+  padding: 0 15px;
   margin-top: 10px;
+  color:#495e57
 }
 
 .specials-bottom {
   justify-content: flex-start;
+  position: absolute;
+  bottom: 15px;
   gap: 10px;
 }
 
@@ -200,10 +211,12 @@ nav a {
 
 .user-text {
   padding: 0 10px;
+  margin-top: 10px;
 }
 
 .user-rating {
   color: gold;
+  margin-top: 20px;
 }
 
 .testimonials-container {
