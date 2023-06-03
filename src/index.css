@@ -163,7 +163,7 @@ nav a {
 .specials-main {
   padding: 0 15px;
   margin-top: 10px;
-  color:#495e57
+  color: #495e57;
 }
 
 .specials-bottom {
@@ -171,6 +171,15 @@ nav a {
   position: absolute;
   bottom: 15px;
   gap: 10px;
+}
+
+.faMotorcycle {
+  color: #495e57;
+}
+
+.price {
+  color: #ee9972;
+  font-weight: bold;
 }
 
 .testimonials {
@@ -222,4 +231,43 @@ nav a {
 .testimonials-container {
   display: flex;
   justify-content: space-between;
+}
+
+.about-section {
+  border: black 1px solid;
+  background-color: white;
+  height: 50vh;
+  padding-left: 26.5%;
+  padding-right: 28%;
+  padding-top: 25px;
+  position: relative;
+}
+
+.about-subtitle {
+  font-family: "Markazi Text", serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: "black";
+  margin-top: 5px;
+}
+
+.about-info {
+  width: 350px;
+  margin-top: 25px;
+}
+
+.adrian-img {
+  position: absolute;
+  width: 300px;
+  right: 710px;
+  bottom: 80px;
+  border-radius: 16px;
+}
+
+.adrian-mario-img {
+  position: absolute;
+  width: 300px;
+  right: 530px;
+  bottom: 225px;
+  border-radius: 16px;
 }

@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Testimonials() {
   return (
     <div className="testimonials">
-      <h1 className="testimonial-title">What out customers say!</h1>
+      <h1 className="testimonial-title">What our customers say!</h1>
       <div>
         <div className="testimonials-container">
           <div className="testimonial-card">

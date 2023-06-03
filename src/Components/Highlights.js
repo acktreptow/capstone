@@ -21,7 +21,7 @@ function Highlights() {
             />
             <div className="specials-title">
               <h3>Greek Salad</h3>
-              <p>$12.99</p>
+              <p className="price">$12.99</p>
             </div>
             <p className="specials-main">
               The famous greek salad of crispy lettuce, peppers, olives and our
@@ -30,14 +30,14 @@ function Highlights() {
             </p>
             <div className="specials-bottom">
               <h4>Order for delivery</h4>
-              <FontAwesomeIcon icon={faMotorcycle} />
+              <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
           <div className="specials-card">
             <img src={bruschetta} alt="bruchetta" className="specials-image" />
             <div className="specials-title">
               <h3>Bruschetta</h3>
-              <p>$5.99</p>
+              <p className="price">$5.99</p>
             </div>
             <p className="specials-main">
               Our bruschetta is made from grilled bread that has been smeared
@@ -45,7 +45,7 @@ function Highlights() {
             </p>
             <div className="specials-bottom">
               <h4>Order for delivery</h4>
-              <FontAwesomeIcon icon={faMotorcycle} />
+              <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
           <div className="specials-card">
@@ -56,7 +56,7 @@ function Highlights() {
             />
             <div className="specials-title">
               <h3>Lemon Dessert</h3>
-              <p>$5.00</p>
+              <p className="price">$5.00</p>
             </div>
             <p className="specials-main">
               This comes straight from grandma's recipe book, every last
@@ -65,7 +65,7 @@ function Highlights() {
             </p>
             <div className="specials-bottom">
               <h4>Order for delivery</h4>
-              <FontAwesomeIcon icon={faMotorcycle} />
+              <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
         </div>
