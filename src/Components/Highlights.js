@@ -3,6 +3,7 @@ import bruschetta from "../images/bruschetta.svg";
 import lemonDessert from "../images/lemonDessert.jpg";
 import { faMotorcycle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Highlights.css";
 
 function Highlights() {
   return (

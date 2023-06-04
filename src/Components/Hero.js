@@ -1,4 +1,5 @@
 import bread from "../images/restaurantfood.jpg";
+import "./Hero.css";
 
 function Hero() {
   return (

@@ -1,5 +1,6 @@
 import adrian from "../images/adrian.jpg";
 import marioAdrian from "../images/marioAdrian.jpg";
+import "./About.css";
 
 function About() {
   return (

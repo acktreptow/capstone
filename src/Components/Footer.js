@@ -1,10 +1,11 @@
 import logoWhite from "../images/logo-white.png";
+import "./Footer.css";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-      <img src={logoWhite} alt="white logo" className="logo-white" /> 
+        <img src={logoWhite} alt="white logo" className="logo-white" />
         <div className="navigation">
           <h1>Navigation</h1>
           <a href="placeholder.com">Home</a>

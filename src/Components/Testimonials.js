@@ -4,6 +4,7 @@ import user3 from "../images/User3.png";
 import user4 from "../images/User4.png";
 import { faStar, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Testimonials.css";
 
 function Testimonials() {
   return (
