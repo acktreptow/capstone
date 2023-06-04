@@ -1,4 +1,4 @@
-import bread from "../images/restaurantfood.jpg";
+import bread from "../assets/restaurantfood.jpg";
 import "./Hero.css";
 
 function Hero() {

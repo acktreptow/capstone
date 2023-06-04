@@ -1,6 +1,6 @@
-import greekSalad from "../images/greekSalad.jpg";
-import bruschetta from "../images/bruschetta.svg";
-import lemonDessert from "../images/lemonDessert.jpg";
+import greekSalad from "../assets/greekSalad.jpg";
+import bruschetta from "../assets/bruschetta.svg";
+import lemonDessert from "../assets/lemonDessert.jpg";
 import { faMotorcycle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Highlights.css";

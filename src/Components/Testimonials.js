@@ -1,7 +1,7 @@
-import user1 from "../images/User1.png";
-import user2 from "../images/User2.png";
-import user3 from "../images/User3.png";
-import user4 from "../images/User4.png";
+import user1 from "../assets/User1.png";
+import user2 from "../assets/User2.png";
+import user3 from "../assets/User3.png";
+import user4 from "../assets/User4.png";
 import { faStar, faStarHalfStroke } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Testimonials.css";
