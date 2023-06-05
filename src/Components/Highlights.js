@@ -7,9 +7,9 @@ import "./Highlights.css";
 
 function Highlights() {
   return (
-    <div className="highlights">
+    <div className="highlights-container">
       <div className="highlights-section-top">
-        <h1 className="title specials-title"> This weeks specials!</h1>
+        <h1 className="highlights-subtitle"> This weeks specials!</h1>
         <button className="menu-button">Online Menu</button>
       </div>
       <div>
