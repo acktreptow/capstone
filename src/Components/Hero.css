@@ -4,10 +4,9 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 25%;
-  border: 1px solid black;
 }
 
-.hero-description {
+.hero-description-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,7 +46,7 @@
   font-size: 12pt;
   border-radius: 16px;
   width: 150px;
-  padding: 15px;
+  padding: 10px;
   border: none;
 }
 
