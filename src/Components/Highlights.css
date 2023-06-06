@@ -1,41 +1,37 @@
 .highlights-container {
-  border: black 1px solid;
   background-color: white;
-  height: 500px;
+  height: 550px;
   padding: 10px 25%;
 }
 
-.highlights-subtitle {
+.highlights-section-top {
+  display: flex;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highlights-header {
   font-family: "Markazi Text", sans-serif;
   font-size: 40pt;
   font-weight: 400;
   color: black;
 }
 
-.specials-title {
-  color: black;
-}
-
-.highlights-section-top {
-  display: flex;
-  margin-top: 30px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.menu-button {
+.highlights-button {
   background-color: #f4ce14;
   color: black;
   font-family: "Karla", sans-serif;
   font-weight: 700;
   font-size: 12pt;
   border-radius: 16px;
-  width: 150px;
-  padding: 15px;
+  width: 130px;
+  padding: 10px;
   border: none;
 }
 
-.specials-container {
+.highlights-section-bottom {
   display: flex;
   justify-content: space-between;
 }
@@ -43,21 +39,20 @@
 .specials-card {
   width: 250px;
   height: 350px;
-  margin-top: 50px;
   background-color: #edefee;
   border-radius: 16px;
-  position: relative;
+}
+
+.specials-img-container {
+  height: auto;
+}
+
+.specials-title {
+  color: black;
 }
 
 .specials-image {
   width: 100%;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-}
-
-.specials-image3 {
-  width: 100%;
-  height: 48%;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
@@ -79,7 +74,6 @@
 
 .specials-bottom {
   justify-content: flex-start;
-  position: absolute;
   bottom: 15px;
   gap: 10px;
 }
@@ -100,7 +94,7 @@
 }
 
 @media only screen and (min-width: 1921px) {
-  .specials-container {
+  .highlights-section-bottom {
     display: flex;
     justify-content: center;
     gap: 50px;

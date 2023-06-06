@@ -1,6 +1,6 @@
-import greekSalad from "../assets/greekSalad.jpg";
+import greekSalad from "../assets/greek-salad.jpg";
 import bruschetta from "../assets/bruschetta.svg";
-import lemonDessert from "../assets/lemonDessert.jpg";
+import lemonDessert from "../assets/lemon-dessert.jpg";
 import { faMotorcycle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Highlights.css";
@@ -9,17 +9,19 @@ function Highlights() {
   return (
     <div className="highlights-container">
       <div className="highlights-section-top">
-        <h1 className="highlights-subtitle"> This weeks specials!</h1>
-        <button className="menu-button">Online Menu</button>
+        <h1 className="highlights-header"> This weeks specials!</h1>
+        <button className="highlights-button">Online Menu</button>
       </div>
       <div>
-        <div className="specials-container">
+        <div className="highlights-section-bottom">
           <div className="specials-card">
-            <img
-              src={greekSalad}
-              alt="greek salad"
-              className="specials-image"
-            />
+            <div className="specials-img-container">
+              <img
+                src={greekSalad}
+                alt="greek salad"
+                className="specials-image"
+              />
+            </div>
             <div className="specials-title">
               <h3>Greek Salad</h3>
               <p className="price">$12.99</p>
@@ -35,7 +37,13 @@ function Highlights() {
             </div>
           </div>
           <div className="specials-card">
-            <img src={bruschetta} alt="bruchetta" className="specials-image" />
+            <div className="specials-img-container">
+              <img
+                src={bruschetta}
+                alt="bruchetta"
+                className="specials-image"
+              />
+            </div>
             <div className="specials-title">
               <h3>Bruschetta</h3>
               <p className="price">$5.99</p>
@@ -50,11 +58,13 @@ function Highlights() {
             </div>
           </div>
           <div className="specials-card">
-            <img
-              src={lemonDessert}
-              alt="greek salad"
-              className="specials-image3"
-            />
+            <div className="specials-img-container">
+              <img
+                src={lemonDessert}
+                alt="greek salad"
+                className="specials-image"
+              />
+            </div>
             <div className="specials-title">
               <h3>Lemon Dessert</h3>
               <p className="price">$5.00</p>
