@@ -22,11 +22,11 @@ function Highlights() {
                 className="specials-image"
               />
             </div>
-            <div className="specials-title">
-              <h3>Greek Salad</h3>
-              <p className="price">$12.99</p>
+            <div className="specials-title-container">
+              <h3 className="specials-title">Greek Salad</h3>
+              <p className="specials-price">$12.99</p>
             </div>
-            <p className="specials-main">
+            <p className="specials-description">
               The famous greek salad of crispy lettuce, peppers, olives and our
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.
@@ -44,11 +44,11 @@ function Highlights() {
                 className="specials-image"
               />
             </div>
-            <div className="specials-title">
-              <h3>Bruschetta</h3>
-              <p className="price">$5.99</p>
+            <div className="specials-title-container">
+              <h3 className="specials-title">Bruschetta</h3>
+              <p className="specials-price">$5.99</p>
             </div>
-            <p className="specials-main">
+            <p className="specials-description">
               Our bruschetta is made from grilled bread that has been smeared
               with garlic and seasoned with salt and olive oil.
             </p>
@@ -65,11 +65,11 @@ function Highlights() {
                 className="specials-image"
               />
             </div>
-            <div className="specials-title">
-              <h3>Lemon Dessert</h3>
-              <p className="price">$5.00</p>
+            <div className="specials-title-container">
+              <h3 className="specials-title">Lemon Dessert</h3>
+              <p className="specials-price">$5.00</p>
             </div>
-            <p className="specials-main">
+            <p className="specials-description">
               This comes straight from grandma's recipe book, every last
               ingredient has been sources and is as authentic as can be
               imagined.
