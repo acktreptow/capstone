@@ -43,21 +43,21 @@
   border-radius: 16px;
 }
 
-.specials-img-container {
-  height: auto;
-}
-
-.specials-title {
-  color: black;
-}
-
 .specials-image {
   width: 100%;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
 
-.specials-title,
+.specials-title {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
 .specials-bottom {
   display: flex;
   align-items: center;

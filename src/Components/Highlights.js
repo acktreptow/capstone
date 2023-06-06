@@ -15,7 +15,7 @@ function Highlights() {
       <div>
         <div className="highlights-section-bottom">
           <div className="specials-card">
-            <div className="specials-img-container">
+            <div>
               <img
                 src={greekSalad}
                 alt="greek salad"
@@ -37,7 +37,7 @@ function Highlights() {
             </div>
           </div>
           <div className="specials-card">
-            <div className="specials-img-container">
+            <div>
               <img
                 src={bruschetta}
                 alt="bruchetta"
@@ -58,7 +58,7 @@ function Highlights() {
             </div>
           </div>
           <div className="specials-card">
-            <div className="specials-img-container">
+            <div>
               <img
                 src={lemonDessert}
                 alt="greek salad"
