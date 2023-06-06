@@ -22,7 +22,7 @@ function Highlights() {
                 className="specials-image"
               />
             </div>
-            <div className="specials-title-container">
+            <div className="specials-title-price-container">
               <h3 className="specials-title">Greek Salad</h3>
               <p className="specials-price">$12.99</p>
             </div>
@@ -31,8 +31,8 @@ function Highlights() {
               Chicago style feta cheese, garnished with crunchy garlic and
               rosemary croutons.
             </p>
-            <div className="specials-bottom">
-              <h4>Order for delivery</h4>
+            <div className="specials-delivery-container">
+              <p className="specials-delivery-request">Order a delivery</p>
               <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
@@ -44,7 +44,7 @@ function Highlights() {
                 className="specials-image"
               />
             </div>
-            <div className="specials-title-container">
+            <div className="specials-title-price-container">
               <h3 className="specials-title">Bruschetta</h3>
               <p className="specials-price">$5.99</p>
             </div>
@@ -52,8 +52,8 @@ function Highlights() {
               Our bruschetta is made from grilled bread that has been smeared
               with garlic and seasoned with salt and olive oil.
             </p>
-            <div className="specials-bottom">
-              <h4>Order for delivery</h4>
+            <div className="specials-delivery-container">
+              <p className="specials-delivery-request">Order a delivery</p>
               <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
@@ -65,7 +65,7 @@ function Highlights() {
                 className="specials-image"
               />
             </div>
-            <div className="specials-title-container">
+            <div className="specials-title-price-container">
               <h3 className="specials-title">Lemon Dessert</h3>
               <p className="specials-price">$5.00</p>
             </div>
@@ -74,8 +74,8 @@ function Highlights() {
               ingredient has been sources and is as authentic as can be
               imagined.
             </p>
-            <div className="specials-bottom">
-              <h4>Order for delivery</h4>
+            <div className="specials-delivery-container">
+              <p className="specials-delivery-request">Order a delivery</p>
               <FontAwesomeIcon icon={faMotorcycle} className="faMotorcycle" />
             </div>
           </div>
