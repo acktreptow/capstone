@@ -8,10 +8,10 @@ import "./Testimonials.css";
 
 function Testimonials() {
   return (
-    <div className="testimonials">
-      <h1 className="testimonial-title">What our customers say!</h1>
+    <div className="testimonials-container">
+      <h1 className="testimonials-title">What our customers say!</h1>
       <div>
-        <div className="testimonials-container">
+        <div className="testimonials">
           <div className="testimonial-card">
             <img src={user1} alt="first review" className="user-img" />
             <h2 className="user-name">Jane Doe</h2>
