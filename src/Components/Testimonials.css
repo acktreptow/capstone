@@ -29,13 +29,13 @@
   align-items: center;
 }
 
-.user-rating {
+.testimonial-rating {
   color: #f4ce14;
   margin-top: 20px;
   margin-bottom: 5px;
 }
 
-.img-name-container {
+.img-name-username-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,7 +43,7 @@
   margin-top: 10px;
 }
 
-.user-img {
+.testimonial-img {
   width: 45%;
   border-radius: 100%;
 }
@@ -66,7 +66,7 @@
   font-size: 16pt;
 }
 
-.user-text {
+.testimonial-text {
   color: #495e57;
   font-family: "Karla", sans-serif;
   line-height: 1.5;
