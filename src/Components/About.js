@@ -1,14 +1,14 @@
 import adrian from "../assets/adrian.jpg";
-import marioAdrian from "../assets/marioAdrian.jpg";
+import marioAdrian from "../assets/mario-adrian.jpg";
 import "./About.css";
 
 function About() {
   return (
     <div className="about-container">
-      <div className="about-description">
+      <div className="about-info">
         <h1 className="about-title">Little Lemon</h1>
         <h2 className="about-subtitle">Chicago</h2>
-        <p className="about-info">
+        <p className="about-description">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequal sunt nostrud amet. Amet minim mollit non deserunt

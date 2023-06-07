@@ -6,7 +6,7 @@
   justify-content: space-between;
 }
 
-.about-description {
+.about-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +27,7 @@
   color: #495e57;
 }
 
-.about-info {
+.about-description {
   width: 350px;
   margin-top: 25px;
   color: black;
@@ -50,7 +50,6 @@
 .adrian-mario-img {
   width: 300px;
   border-radius: 16px;
-  z-index: 1;
 }
 
 @media only screen and (min-width: 1921px) {
