@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import Homepage from "../pages/Homepage/Homepage";
-import WrongPage from "../pages/Others/WrongPage";
 
 function Nav() {
   return (
