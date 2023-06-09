@@ -1,0 +1,13 @@
+.booking-page-container {
+  background-color: white;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.booking-page-title {
+  font-family: "Markazi Text", sans-serif;
+  font-size: 40pt;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
