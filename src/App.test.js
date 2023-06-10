@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import "./pages/Booking/BookingForm";
+import BookingForm from "./pages/Booking/BookingForm";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test("Renders to the button call to action", () => {
+  render(<BookingForm />);
+  const buttonElement = screen.getByText("Reserve Table");
+  expect(buttonElement).toBeInTheDocument();
 });
