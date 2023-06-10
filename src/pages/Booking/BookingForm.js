@@ -1,11 +1,10 @@
 import "./BookingForm.css";
 import { useState } from "react";
 
-function BookingForm(props) {
+function BookingForm({ availableTimes, dispatch }) {
   const [date, setDate] = useState(new Date().getDate());
   const [guests, setGuests] = useState(1);
   const [occasion, setOccasion] = useState("Birthday");
-  const { availableTimes, setAvailableTimes } = useState;
 
   return (
     <div>
@@ -21,7 +20,7 @@ function BookingForm(props) {
         <select
           id="res-time"
           value={availableTimes}
-          onChange={(e) => setAvailableTimes(e.target.value)}
+          onClick={() => dispatch({ type: "selected date" })}
         >
           <option>17:00</option>
           <option>18:00</option>
