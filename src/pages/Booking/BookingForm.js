@@ -1,33 +1,23 @@
 import "./BookingForm.css";
 import { useState } from "react";
 
-function BookingForm() {
+function BookingForm(props) {
   const [date, setDate] = useState(new Date().getDate());
-  const [availableTimes, setAvailableTimes] = useState([
-    "17:00",
-    "18:00",
-    "19:00",
-    "20:00",
-    "21:00",
-    "22:00",
-  ]);
   const [guests, setGuests] = useState(1);
   const [occasion, setOccasion] = useState("Birthday");
+  const { availableTimes, setAvailableTimes } = useState;
 
   return (
     <div>
       <form className="booking-form">
         <label htmlFor="res-date">Choose date</label>
-        <br />
         <input
           type="date"
           id="res-date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
         />
-        <br />
         <label htmlFor="res-time">Choose time</label>
-        <br />
         <select
           id="res-time"
           value={availableTimes}
@@ -40,9 +30,7 @@ function BookingForm() {
           <option>21:00</option>
           <option>22:00</option>
         </select>
-        <br />
         <label htmlFor="guests">Number of guests</label>
-        <br />
         <input
           type="number"
           placeholder="1"
@@ -52,9 +40,7 @@ function BookingForm() {
           value={guests}
           onChange={(e) => setGuests(e.target.value)}
         />
-        <br />
         <label htmlFor="occasion">Occasion</label>
-        <br />
         <select
           id="occasion"
           value={occasion}
