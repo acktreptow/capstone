@@ -7,3 +7,7 @@
 label {
   display: block;
 }
+
+input :focus :invalid {
+  border: 2px solid red;
+}

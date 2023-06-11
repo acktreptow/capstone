@@ -15,12 +15,14 @@ function BookingForm({ availableTimes, dispatch }) {
           id="res-date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
+          required
         />
         <label htmlFor="res-time">Choose time</label>
         <select
           id="res-time"
           value={availableTimes}
           onClick={() => dispatch({ type: "selected date" })}
+          required
         >
           <option>17:00</option>
           <option>18:00</option>
@@ -38,12 +40,14 @@ function BookingForm({ availableTimes, dispatch }) {
           id="guests"
           value={guests}
           onChange={(e) => setGuests(e.target.value)}
+          required
         />
         <label htmlFor="occasion">Occasion</label>
         <select
           id="occasion"
           value={occasion}
           onChange={(e) => setOccasion(e.target.value)}
+          required
         >
           <option>Birthday</option>
           <option>Anniversary</option>
