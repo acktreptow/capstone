@@ -5,6 +5,7 @@ import WrongPage from "./pages/Others/WrongPage";
 import BookingPage from "./pages/Booking/BookingPage";
 import { Routes, Route } from "react-router-dom";
 
+
 function App() {
   return (
     <>

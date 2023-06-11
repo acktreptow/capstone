@@ -1,6 +1,6 @@
 import "./BookingPage.css";
 import BookingForm from "./BookingForm";
-import { useState, useReducer } from "react";
+import { useState, useReducer, useEffect } from "react";
 
 function BookingPage() {
   const updateTimes = () => {
