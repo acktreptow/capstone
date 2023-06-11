@@ -6,9 +6,15 @@ function BookingForm({ availableTimes, dispatch }) {
   const [guests, setGuests] = useState(1);
   const [occasion, setOccasion] = useState("Birthday");
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Form submitted!");
+    return;
+  };
+
   return (
     <div>
-      <form className="booking-form">
+      <form className="booking-form" onSubmit={handleSubmit}>
         <label htmlFor="res-date">Choose date</label>
         <input
           type="date"
