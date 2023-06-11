@@ -15,7 +15,7 @@ function BookingPage() {
 
   return (
     <div className="booking-page-container">
-      <h1 className="booking-page-title">Reserve a table</h1>
+      <h1 className="booking-page-title">Reserve Table</h1>
       <BookingForm availableTimes={availableTimes} dispatch={dispatch} />
     </div>
   );
