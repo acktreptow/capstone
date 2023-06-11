@@ -7,7 +7,7 @@ import "./Highlights.css";
 
 function Highlights() {
   return (
-    <div className="highlights-container">
+    <section className="highlights-container">
       <div className="highlights-section-top">
         <h1 className="highlights-header"> This weeks specials!</h1>
         <button className="highlights-button">Online Menu</button>
@@ -81,7 +81,7 @@ function Highlights() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

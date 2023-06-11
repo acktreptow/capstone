@@ -3,8 +3,8 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="footer-container">
-      <div className='footer-image-container'>
+    <footer className="footer-container">
+      <div className="footer-image-container">
         <img src={logoWhite} alt="white logo" className="footer-logo" />
       </div>
       <div className="footer-links">
@@ -31,7 +31,7 @@ function Footer() {
           <a href="placeholder.com">YouTube</a>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
 

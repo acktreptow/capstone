@@ -8,7 +8,7 @@ import "./Testimonials.css";
 
 function Testimonials() {
   return (
-    <div className="testimonials-container">
+    <section className="testimonials-container">
       <h1 className="testimonials-title">What our customers say!</h1>
       <div>
         <div className="testimonials">
@@ -97,7 +97,7 @@ function Testimonials() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
