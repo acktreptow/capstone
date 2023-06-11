@@ -52,7 +52,7 @@ function BookingForm({ availableTimes, dispatch }) {
           <option>Birthday</option>
           <option>Anniversary</option>
         </select>
-        <input type="submit" value="Reserve Table" />
+        <input type="submit" value="Reserve Table" aria-label="submit form" />
       </form>
     </div>
   );

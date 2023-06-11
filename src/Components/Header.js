@@ -4,8 +4,8 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header className='header-container'>
-      <img src={logo} alt="Little Lemon Logo" />
+    <header className="header-container">
+      <img src={logo} alt="Little Lemon's Logo" />
       <Nav />
     </header>
   );
